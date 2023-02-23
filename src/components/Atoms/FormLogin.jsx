@@ -42,7 +42,7 @@ function FormLogin(){
 
 
     return(
-         <div>
+         <div >
          <div className="Texto">Welcome</div>
                     <form className="Conteiner" ref={form} > 
                     <div className="datos">
@@ -52,13 +52,12 @@ function FormLogin(){
             </div>
 
             <div>
-            <div>
+            <div className="datos1">
                 <label className="texto">Password</label>
-                <input type="password" id="contrasenia" name='contrasenia' />
-            </div>
+                <input className="dat" type="password" id="contrasenia" name='contrasenia' />
+            </div>z
                 </div>
-                <button
-                 type="button" onClick={handlerClick}>Inicar session</button>
+                <button className="boton" type="button" onClick={handlerClick}>Inicar session</button>
                 <Link className="link" to="/RegisterPage">No tienes cuenta? Registrate aqui</Link>
       
         </form>

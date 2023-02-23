@@ -2,26 +2,78 @@ body{
     background-image: url(../img/Piano.jpg);
      background-size: cover;     
      
+     
 }
 
 .Conteiner{
-  position: absolute;
-  display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: space-evenly;
-width: 237px;
-height: 422px;
-background: rgba(22, 11, 11, 0.7);
-border-radius: 15px;
-left:40%
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 401px;
+    background: rgba(22, 11, 11, 0.7);
+    border-radius: 15px;
+    left:40%
+
 }
 
+.datos{
+    position: absolute;
+    left: 24.89%;
+    right: 24.47%;
+    top: 22.27%;
+    bottom: 70.85%;
+    
+    background: #C0B3B3;
+    border-radius: 5px;
+}
+.datos1{
+    position: absolute;
+left: 24.89%;
+right: 24.47%;
+top: 43.13%;
+bottom: 50%;
+
+background: #C0B3B3;
+border-radius: 5px;
+}
+
+.boton{
+    position: absolute;
+    left: 29.96%;
+    right: 29.96%;
+    top: 66.35%;
+    bottom: 26.78%;
+
+    background: rgba(71, 56, 56, 0.85);
+    border-radius: 5px;
+}
+.link{
+    position: absolute;
+    left: 16.46%;
+    right: 8.02%;
+    top: 79.86%;
+    bottom: 12.56%;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #FFFFFF;
+}
 .Texto{
     position: absolute;
-    left: 45%;
+    left: 53%;
+    top: 8%;
 width: 128px;
-height: 32px;
+height: 132px;
 
 font-family: 'K2D';
 font-style: normal;
